@@ -1,0 +1,88 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bán hàng</title>
+    <link rel="stylesheet" href="./assets/css/banhang.css">
+</head>
+<body>
+    <h1>BÁN HÀNG</h1>
+    <select name="mucgia" id="mucgia" onchange="mucgia()">
+        <option value="0">Mức Giá</option>
+        <option value="1"><=100</option>
+        <option value="2"><=200</option>
+        <option value="3"><=300</option>
+        <option value="4"><=400</option>
+        <option value="5"><=500</option>
+        <option value="6"><=600</option>
+        <option value="7"><=700</option>
+    </select>
+    <hr>
+    <table border="1" id="table">
+        <thead>
+            <th><input type="checkbox" class="chonhet" onchange="chonhet(this)"></th>
+            <th>Hàng Hóa</th>
+            <th>Đơn Giá</th>
+            <th>Số Lượng</th>
+            <th>Thành Tiền</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" class="chon" onchange="daott(this)"></td>
+                <td>Son kem tint lì hai đầu PINKFLASH</td>
+                <td>138</td>
+                <td><input type="number" value="0" class="soluong" onchange="thanhTien(this)"></td>
+                <td><span id="tong">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="chon" onchange="daott(this)"></td>
+                <td>Son Kem Lì Merzy</td>
+                <td>249</td>
+                <td><input type="number" value="0" class="soluong" onchange="thanhTien(this)"></td>
+                <td><span id="tong">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="chon" onchange="daott(this)"></td>
+                <td>Son Kem Lì Black Rouge</td>
+                <td>230</td>
+                <td><input type="number" value="0" class="soluong" onchange="thanhTien(this)"></td>
+                <td><span id="tong">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="chon" onchange="daott(this)"></td>
+                <td>Son tint bóng Colorkey</td>
+                <td>220</td>
+                <td><input type="number" value="0" class="soluong" onchange="thanhTien(this)"></td>
+                <td><span id="tong">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="chon" onchange="daott(this)"></td>
+                <td>Kem nền BB FOCALLURE</td>
+                <td>92</td>
+                <td><input type="number" value="0" class="soluong" onchange="thanhTien(this)"></td>
+                <td><span id="tong">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="chon" onchange="daott(this)"></td>
+                <td>Bộ sản phẩm kem nền trang điểm MSMEESHU</td>
+                <td>175</td>
+                <td><input type="number" value="0" class="soluong" onchange="thanhTien(this)"></td>
+                <td><span id="tong">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="chon" onchange="daott(this)"></td>
+                <td>Hộp phấn phủ LAMEILA</td>
+                <td>420</td>
+                <td><input type="number" value="0" class="soluong" onchange="thanhTien(this)"></td>
+                <td><span id="tong">0</span></td>
+            </tr>
+            <tr>
+                <th colspan="4">Tổng</th>
+                <th><span id="tongtien">0</span></th>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+<script src="./assets/js/banhang.js"></script>
+</html>
