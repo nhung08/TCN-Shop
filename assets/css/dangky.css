@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+
+html {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9c8be;
+}
+
+.main {
+    padding-top: 70px;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 550px;
+    padding: 30px;
+    background-color: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 5px 0 rgba(51,62,73,.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 12px;
+    color: #EE4D2D;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.maSV, .tenSV, .email {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.maSV input, .tenSV input, .email input {
+    width: 75%;
+    height: 32px;
+    padding: 0px 10px 0px 10px;
+}
+
+.maSV label, .tenSV label, .email label {
+    display: flex;
+    align-items: center;
+    width: 25%; 
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.gioitinh label, .sothich label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.gioitinh, .sothich {
+    width: 100%;
+    margin-top: 9px;
+    height: 32px;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.quoctich {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 530px;
+    padding: 10px;
+}
+
+#quoctich,
+.form-control,
+.kc {
+    margin-top: 10px;
+}
+
+.btn button {
+    display: inline-block;
+    padding: 12px 248px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    background-color: #EE4D2D;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.btn button:hover {
+    background-color: #F05D41;
+}
